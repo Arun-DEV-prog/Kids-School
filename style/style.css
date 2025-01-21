@@ -91,13 +91,15 @@ background: var(--sky-blue);
 
 .nav-sm{
     display: none;
+    
 }
+
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 12px 16px;
-   
+    border-bottom: 2px solid var(--orange-color);
 }
 .nav i{
     font-size: 1.5rem;
