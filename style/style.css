@@ -392,7 +392,7 @@ gap: 10px;
     display: none;
 }
 
-footer{
+.footer{
     background-color: var(--sky-blue);
     max-width: 1440px;
 }
@@ -488,8 +488,9 @@ footer{
 
    .right-card-container{
     grid-template-columns: repeat(1,1fr);
-       
-
+        width: 90vw;
+        padding-left:5px ;
+       gap: 20px;
    
    }
    .right-card{
@@ -505,6 +506,11 @@ footer{
     flex-direction: column;
     padding-left: 17px;
     gap: 30px;
+   }
+
+   .view{
+    margin-top:5px;
+    background-color: #FEA301;
    }
    
 }
