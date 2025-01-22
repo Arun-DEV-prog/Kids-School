@@ -455,6 +455,7 @@ footer{
     }
    .hero-container{
     flex-direction: column-reverse;
+    gap: 0px;
     padding-left: 30px;
     padding-right: 30px;
    }
@@ -463,6 +464,7 @@ footer{
   }
    .hero-content{
     text-align: center;
+    padding-top: 20px;
   padding-right: 10px;
   padding-bottom: 10px;
    }
@@ -522,6 +524,9 @@ footer{
 
     .hero-content-title{
         font-size: 1.5rem;
+    }
+    .hero-desc{
+        font-size: 0.8rem;
     }
     .hero-content{
         width: 50%;
