@@ -259,13 +259,116 @@ background: var(--sky-blue);
   background-color: #DEF5FF;
     cursor: pointer;
    color: var(--orange-color);
-}t
+}
 
 .icon-angle{
     display: block;
 }
 
+/* ==================Stories======================== */
+.Stories{
+    max-width: 1440px;
+    background: url("../assets/bg.png"),linear-gradient(to bottom,#FFFFFF 0%,#FEA301 30%);
+    background-repeat: no-repeat;
+ 
+    background-size: contain;
+}
 
+.stories-title{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.stories-container{
+    max-width: 1158px;
+    margin: 0 auto;
+    display: flex;
+   
+    gap: 50px;
+    align-items: center;
+    margin-top: 80px;
+   
+}
+
+.left-card{
+    max-width: 540px;
+    height: 620px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+   
+}
+
+.left-image{
+    width: 100%;
+   
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+.left-card-title{
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+.left-card-title, .left-card-desc{
+    margin-left: 35px;
+}
+.right-card-container{
+   
+    max-width: 540px;
+   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+gap: 10px;
+}
+.date-btn{
+    background-color: #3CD8E8;
+    position: relative;
+    padding: 14px 18px;
+    border-radius: 16px;
+          top: -85px;
+          left: 57px;
+          width: 178px;
+}
+
+
+/* right-card */
+.right-card{
+    background-color: var(--white-color);
+    max-width: 300px;
+ 
+    border-radius: 16px;
+
+}
+
+.right-card-title{
+    margin-top: 20px;
+    margin-left: 36px;
+    margin-right: 39px;
+  margin-bottom: 35px;
+   font-size: 1rem;
+}
+.right-card img{
+    width: 100%;
+    border-radius: 17px;
+}
+.date-btn-1{
+    position: relative;
+    background-color: var(--sky-blue);
+    top: -20px;
+    left: 10px;
+    padding: 14px 18px;
+    border-radius: 16px;
+    width: 178px;
+    
+   
+   
+   
+}
+
+.mb-sm-sh{
+    display: none;
+}
 
 
 
@@ -310,11 +413,31 @@ background: var(--sky-blue);
   display: none;
   margin-top:80px;
    }
+
+   .left-card{
+    display: none;
+   }
+
+   .right-card-container{
+    grid-template-columns: repeat(1,1fr);
+       
+
+   
+   }
+   .right-card{
+      width: 100vw;
+     
+   }
+
+   .mb-sm-sh{
+    display: block;
+   }
+   
 }
 
 /* =============responsive for desktop============== */
 
-@media screen and (min-width:576px)  and (max-width:992px){
+@media screen and (min-width:577px)  and (max-width:992px){
     .navber{
         display: none;
     }
